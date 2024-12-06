@@ -1,0 +1,4 @@
+repository "Nomad Game Jam 2024-12-06_12-16-44/Nomad Game Jam@18966820682734@cloud"
+  path "/"
+    br "/main"
+    co "/main"

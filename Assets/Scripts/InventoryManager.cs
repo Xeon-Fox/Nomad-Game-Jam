@@ -30,7 +30,7 @@ public class InventoryManager : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyUp(KeyCode.I))
+        if (Input.GetKeyUp(KeyCode.M))
         {
             is_open = !is_open;
             UIPanel.SetActive(is_open);

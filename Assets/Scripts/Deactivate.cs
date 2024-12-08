@@ -3,6 +3,7 @@ using UnityEngine;
 public class Deactivate : MonoBehaviour
 {
     public GameObject targetObject;
+    public GameObject particleObject;
 
     void OnTriggerEnter(Collider other)
     {
@@ -11,6 +12,7 @@ public class Deactivate : MonoBehaviour
             if (targetObject != null)
             {
                 targetObject.SetActive(false);
+                particleObject.SetActive(true);
             }
         }
     }
